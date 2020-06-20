@@ -94,8 +94,8 @@ BOOL APIENTRY DllMain (HMODULE module, DWORD callReason, LPVOID lpReserved) {
 
         //TODO: Waiting your beatiful name.
         //README: !!getenv it's a function!!. Please read docs before edit and ask questions.
-        segment.GetFramework().UpdateWatermark (getenv ("USERNAME"), "OTC Rehost");
-        segment.GetFramework().UpdateMenuWatermark ("Onetap Crack ");
+        segment.GetFramework().UpdateWatermark (getenv ("USERNAME"), "OTC");
+        segment.GetFramework().UpdateMenuWatermark ("onetap.su ");
 
         logger.Info ("| [~] Invoking OEP...");
        
